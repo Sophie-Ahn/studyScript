@@ -3,14 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>JS 예제 - 1</title>
+	<title>login</title>
 
 	<!-- css -->
 	<link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-	<form class="login-form">
-		<input type="text" placeholder="아이디 입력해줄랭?">
+	<h1 id="greeting" class="hidden"></h1>
+	<form id="login-form" class="hidden">
+		<input required maxlength="20" type="text" placeholder="아이디 입력해줄랭?">
 		<button>눌러</button>
 	</form>
 
